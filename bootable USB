@@ -1,44 +1,59 @@
-Method 1: Using Rufus (Third-party tool)
+Method 1: With the Windows Media Creation Tool
 What you do:
 
-Download the Windows ISO file from Microsoft or elsewhere.
+Get the official Windows Media Creation Tool from Microsoft's website.
 
-Download and open Rufus (a free lightweight tool).
+Run the tool on your current Windows computer.
 
-Insert your USB stick.
+Choose the option for making installation media for another PC.
 
-In Rufus, select your USB drive and the Windows ISO file.
+Choose the Windows version, language, and architecture (32-bit or 64-bit).
 
-Choose partition scheme (MBR or GPT) depending on your PC’s boot mode (Legacy BIOS or UEFI).
+Insert your USB drive and choose it as the target device.
 
-Click “Start” and Rufus will format and copy files to make your USB bootable.
+The tool will automatically download the Windows install files and prepare the USB.
 
-Once finished, you can boot from this USB to install Windows.
-
-
-Software tools needed
-
-Windows ISO file (downloadable from Microsof
-
-Method 2: Using the Windows Media Creation Tool
-What you do:
-
-Download the official Windows Media Creation Tool from Microsoft’s website.
-
-Run the tool on your current Windows PC.
-
-Choose the option to create installation media for another PC.
-
-Select the Windows version, language, and architecture (32-bit or 64-bit).
-
-Plug in your USB stick and choose it as the target device.
-
-The tool will download the Windows installation files and prepare the USB automatically.
-
-When done, you have a bootable USB ready to install Windows.
+When done, you have a bootable USB to install Windows.
 
 Software tools needed:
 
 Windows Media Creation Tool (free from Microsoft)
 
 USB size:
+
+At least 8 GB (some ones need 16 GB if it's Windows 11 or bigger ISO)
+
+Multiple boots in one USB, can you?
+
+No, this tool creates one Windows installer. For multiple OS installers in one USB, you need advanced methods.
+
+Method 2: Using Rufus (Third-party tool)
+What do you do:
+
+Download the Windows ISO file from Microsoft or any other source.
+
+Download and execute Rufus (free lightweight utility).
+
+Put in your USB stick.
+
+In Rufus, select your USB drive and the Windows ISO file.
+
+Select partition scheme (MBR or GPT) as per your PC's boot mode (Legacy BIOS or UEFI).
+
+Click "Start" and Rufus will format and copy files to boot your USB.
+
+Once done, you can boot from this USB to install Windows.
+
+Software utilities needed:
+
+Rufus (free, at https://rufus.ie/)
+
+Windows ISO file (downloaded from Microsoft)
+
+USB size:
+
+Minimum 8 GB for Windows 10 and later.
+
+Can you perform multiple boots from one USB?
+
+By default, Rufus will create a single-boot USB. But using advanced configuration or other specialized tools (like Ventoy), you can make a multiboot USB.
